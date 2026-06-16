@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 
 function App() {
-  const [quote, setQuote] = useState({});
+  const [quote, setQuote] = useState({quote:"Loading",author:""});
 
   const fetchquote = useCallback(() => {
     fetch(
@@ -26,7 +26,7 @@ function App() {
       "
       >
         <svg
-          class="w-11 h-11 text-heading mb-4 mx-auto"
+          className="w-11 h-11 text-heading mb-4 mx-auto"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -44,14 +44,14 @@ function App() {
         </svg>
 
         <blockquote>
-          <p class="text-2xl italic font-semibold tracking-tight text-heading">
+          <p className="text-2xl italic font-semibold tracking-tight text-heading">
             "{quote["quote"]}"
           </p>
         </blockquote>
 
-        <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
-          <div class="flex items-center divide-x rtl:divide-x-reverse divide-default">
-            <cite class="pe-3 font-medium text-heading">{quote["author"]}</cite>
+        <figcaption className="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
+          <div className="flex items-center divide-x rtl:divide-x-reverse divide-default">
+            <cite className="pe-3 font-medium text-heading">{quote["author"]}</cite>
           </div>
         </figcaption>
       </figure>
