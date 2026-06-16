@@ -21,7 +21,7 @@ function App() {
     <>
 
       <figure
-        class="max-w-screen-md mx-auto text-center
+        className="max-w-screen-md mx-auto text-center
       bg-white/20 backdrop-blur-md border border-white/30 rounded-2xl shadow-lg
       "
       >
