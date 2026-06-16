@@ -4,19 +4,19 @@ A simple React application that fetches and displays inspirational quotes using 
 
 ## Features
 
-* Generate random quotes with a single click
-* Automatically loads a quote when the page opens
-* Responsive and clean user interface
-* Glassmorphism-inspired quote card
-* Environment variable support for API key security
+- Generate random quotes with a single click
+- Automatically loads a quote when the page opens
+- Responsive and clean user interface
+- Glassmorphism-inspired quote card
+- Environment variable support for API key security
 
 ## Built With
 
-* React
-* Vite
-* JavaScript
-* Tailwind CSS
-* API Ninjas Quotes API
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- API Ninjas Quotes API
 
 ## Installation
 
@@ -44,6 +44,15 @@ Start the development server:
 ```bash
 npm run dev
 ```
+
+## API
+
+This project uses the API Ninjas Random Quotes API:
+
+https://api.api-ninjas.com/v2/randomquotes
+
+API documentation:
+https://api-ninjas.com/api/quotes
 
 ## Environment Variables
 
