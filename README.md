@@ -1,16 +1,70 @@
-# React + Vite
+# Quote Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that fetches and displays inspirational quotes using the API Ninjas Random Quotes API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Generate random quotes with a single click
+* Automatically loads a quote when the page opens
+* Responsive and clean user interface
+* Glassmorphism-inspired quote card
+* Environment variable support for API key security
 
-## React Compiler
+## Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript
+* Tailwind CSS
+* API Ninjas Quotes API
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash
+git clone https://github.com/J1234D/quoteGenerator
+cd quote-generator
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file in the project root:
+
+```env
+VITE_API_KEY=your_api_key_here
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Environment Variables
+
+This project requires an API key from API Ninjas.
+
+Create a `.env` file:
+
+```env
+VITE_API_KEY=your_api_key_here
+```
+
+## Deployment
+
+This project can be deployed easily using Vercel.
+
+Add the following environment variable in your Vercel project settings:
+
+```env
+VITE_API_KEY=your_api_key_here
+```
+
+## Author
+
+Made with ❤️ by Jishnu Dutta
